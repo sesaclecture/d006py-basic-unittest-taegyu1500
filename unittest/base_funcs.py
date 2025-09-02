@@ -1,5 +1,5 @@
 def even_odd(n):
-    return str(bin(n))[-1] == "0" 
+    return bin(n)[-1] == "0" 
     # return str(n)[-1] in ["0","2","4","6","8"]
 
 def average(arr):
