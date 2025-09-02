@@ -1,7 +1,6 @@
 def even_odd(n):
-    if str(n)[-1] in ["0","2","4","6","8"]:
-        return True
-    return False
+    return str(bin(n))[-1] == "0" 
+    # return str(n)[-1] in ["0","2","4","6","8"]
 
 def average(arr):
     if len(arr) == 0: return 0
