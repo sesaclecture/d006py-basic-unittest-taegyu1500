@@ -1,0 +1,17 @@
+def even_odd(n):
+    if str(n)[-1] in ["0","2","4","6","8"]:
+        return True
+    return False
+
+def average(arr):
+    if len(arr) == 0: return 0
+    answer = 0
+    for i in arr:
+        answer += i
+    return answer / len(arr)
+
+def max_list(arr):
+    return max(arr)
+
+def min_list(arr):
+    return min(arr)
