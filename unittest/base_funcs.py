@@ -11,7 +11,9 @@ def average(arr):
     return answer / len(arr)
 
 def max_list(arr):
-    return max(arr)
+    if len(arr) == 0: return 0
+    return sorted(arr,reverse=True)[0]
 
 def min_list(arr):
-    return min(arr)
+    if len(arr) == 0: return 0
+    return sorted(arr)[0]

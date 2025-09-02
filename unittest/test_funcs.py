@@ -9,6 +9,7 @@ def test_even_odd():
 def test_average():
     assert average([]) == 0
     assert average([1,2,3,4,5]) == 3
+    assert average([1,2,3,4]) == 2.5
 
 def test_max_list():
     assert max_list([1]) == 1
